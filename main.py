@@ -37,13 +37,32 @@ print(seconds)
 # == equal
 # != different or not equal to
 
+my_bool = 10 == 25
+print(my_bool)#false
+my_bool = 5 + 5 == 10 - 0
+print(my_bool)#true
+my_bool = 'Walter white' == 'Walter White'
+print(my_bool)
 
+my_bool = 4<5 or 5<=6
+print(my_bool)
+
+my_bool=(55==55) and (5==2+3)
+print(my_bool)
+
+text = "this sentence is short"
+#my_bool = ('sentence' in text) and ('short' in text)
+my_bool = ('sentence' in text) or ('short' in text)
+print(my_bool)
 
 
 # Comparison Operators Practice  1:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
 
-
+num1 = 36
+num2 = 17
+my_bool = num1 >= num2
+print("This is " + str(my_bool))
 
 
 # Comparison Operators Practice  2:
@@ -52,6 +71,10 @@ print(seconds)
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
 
+num1 = 25 ** (1/2)
+num2 = 5
+my_bool = num1 == num2
+print(my_bool)
 
 # Comparison Operators Practice #3:
 # Create two variables (num1 and num2):
