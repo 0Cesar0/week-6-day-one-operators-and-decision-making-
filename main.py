@@ -146,14 +146,26 @@ print(my_bool )
 word1 = "success"
 word2 = "technology"
 sentence = "When something is important enough, you do it even if the odds are against you" 
-my_bool = word1 in sentence or word2 in sentence
+my_bool = (word1 in sentence) and (word2 in sentence)
 print(my_bool)
 
 
 
 ########################################decision making in python#####################################
+#if 5==2:
+  #print("it is correct")
+#else:
+  #print("it is incorrect")
 
-
+pet = 'rabbit'
+if pet == 'cat':
+  print("you have cat")
+elif pet == 'dog':
+  print("you have a dog")
+elif pet == 'fish':
+  print("Slurpfish from fortnite no way.")
+else:
+  print("I do not know what you have.")
 
 # Decision Making Practice #1
 # Using the variables num1 and num2, which are fed with user input (just like in the provided code), create a flow control structure that compares the values of the variables, and returns a result according to the case:
